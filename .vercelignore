@@ -1,0 +1,87 @@
+# Vercel ignore file
+# Files and directories to ignore during Vercel deployment
+
+# Documentation
+README.md
+DEPLOYMENT.md
+VERCEL_DEPLOYMENT.md
+*.md
+!vercel.json
+
+# Development files
+.env.example
+.gitignore
+railway.toml
+nixpacks.toml
+
+# Node modules (will be installed fresh)
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output/
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env.local
+.env.development
+.env.test
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test files
+test/
+tests/
+spec/
+
+# Development tools
+.eslintrc.*
+.prettierrc*
+jest.config.*
